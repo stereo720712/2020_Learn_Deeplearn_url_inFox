@@ -1,0 +1,13 @@
+Jupyter notebook 在預設情況下無法檢視變數內容，因此會造成檢視錯誤的困難。
+
+ 
+
+解決辦法 :
+
+# pip install jupyter_contrib_nbextensions
+
+# jupyter contrib nbextension install --user
+
+# jupyter nbextension enable varInspector/main
+
+# jupyter notebook
